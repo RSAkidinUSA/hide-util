@@ -1,0 +1,2 @@
+install hide.sh /usr/bin/local/hide
+install unhide.sh /usr/bin/local/unhide
