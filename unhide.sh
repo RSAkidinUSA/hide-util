@@ -10,7 +10,7 @@ for entry in "$@"; do
             path="."
         fi
         dst=$(echo $src | cut -d. -f2-)
-        if [ "${src:0:1}" != "." ]; then
+        if [ "${src:0:1}" != "." ] || [ "$src" == "." ] || [ "$src" == ".." ]; then
             :
         elif test -f "$path"/"$dst"; then
             echo "$path/$dst already exists, can't unhide."
