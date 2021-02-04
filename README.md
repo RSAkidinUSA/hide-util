@@ -1,7 +1,7 @@
 # hide-util
 Utility to easily hide and unhide files on Linux
 
-Install with `sudo install`.
+Install with `sudo ./install`.
 
 Usage:
 ```
